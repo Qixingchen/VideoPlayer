@@ -51,6 +51,15 @@ public class PlayerActivity extends Activity implements OnPreparedListener, OnEr
         emVideoView.start();
     }
 
+    /**
+     * <div class="en">get start intent</div>
+     * <div class="zh-CN">取得启动的 Intent</div>
+     *
+     * @param context <div class="en">intent context</div>
+     *                <div class="zh-CN">用于生成 Intent 的 Context</div>
+     * @param url     <div class="en">video url</div>
+     *                <div class="zh-CN">视频链接</div>
+     */
     public static Intent getStartIntent(@NonNull Context context, @NonNull String url) {
         Intent intent = new Intent(context, PlayerActivity.class);
         intent.putExtra(VIDEO_URL, url);
