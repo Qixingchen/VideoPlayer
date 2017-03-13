@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-          package="moe.xing.vedioplayerdemo"
+          package="moe.xing.videoplayerdemo"
     >
 
     <uses-permission android:name="android.permission.INTERNET"/>

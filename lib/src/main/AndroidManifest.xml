@@ -2,7 +2,10 @@
           package="moe.xing.videoplayer">
 
     <application>
-        <activity android:name=".PlayerActivity"/>
+        <activity
+            android:name=".PlayerActivity"
+            android:screenOrientation="landscape"
+            />
     </application>
 
 </manifest>
