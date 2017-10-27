@@ -12,7 +12,7 @@ VideoPlayer
 ### how to use
 
 ``` java
-startActivity(PlayerActivity.getStartIntent(context,videoUrl));
+startActivity(PlayerActivity.getStartIntent(context,videoUrl.firstUse3rdApp));
 ```
 or see demo app or
 read javadoc in [jitpack](https://jitpack.io/com/github/Qixingchen/VideoPlayer/-SNAPSHOT/javadoc/)
