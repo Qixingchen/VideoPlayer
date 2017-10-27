@@ -7,8 +7,14 @@
     <application>
         <activity
             android:name=".PlayerActivity"
-            android:screenOrientation="landscape"
-            />
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2"
+            tools:replace="android:value"/>
+
     </application>
 
 </manifest>

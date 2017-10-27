@@ -3,9 +3,10 @@ apply plugin: "com.vanniktech.android.junit.jacoco"
 buildscript {
     repositories {
         jcenter()
+        google ()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:3.0.0'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.4.0'
         classpath 'com.vanniktech:gradle-android-junit-jacoco-plugin:0.5.0'
@@ -16,6 +17,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google ()
         jcenter()
         maven { url "https://jitpack.io" }
     }
@@ -26,7 +28,7 @@ task clean(type: Delete) {
 }
 
 ext {
-    supportLibraryVersion = '25.3.0'
-    sdk_version = 25
-    buildToolsVersion = "25.0.2"
+    supportLibraryVersion = '26.0.2'
+    sdk_version = 26
+    buildToolsVersion = "26.0.2"
 }

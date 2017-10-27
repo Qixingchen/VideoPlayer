@@ -36,7 +36,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    compile 'com.devbrackets.android:exomedia:3.1.1'
+    compile 'com.jarvanmo:exoplayerview:1.1.0'
+    compile 'com.github.Qixingchen:Android-Base-Utils:V1.1.0'
     testCompile 'junit:junit:4.12'
 }
 // build a jar with source files
